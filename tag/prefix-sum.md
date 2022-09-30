@@ -31,7 +31,7 @@ var runningSum = function(nums) {
 	preSum[0] = 0;
 
 	for(let i = 1; i <= nums.length; i++) {
-		preSum[i] = preSum[i - 1] + nums[i - 1]
+		preSum[i] = preSum[i - 1] + nums[i - 1];
 	}
 
 	return preSum;
